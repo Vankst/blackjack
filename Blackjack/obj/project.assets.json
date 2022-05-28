@@ -260,11 +260,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Blackjack\\Blackjack\\Blackjack.csproj",
+      "projectUniqueName": "E:\\Blackjack\\Blackjack\\Blackjack.csproj",
       "projectName": "Blackjack",
-      "projectPath": "D:\\Blackjack\\Blackjack\\Blackjack.csproj",
+      "projectPath": "E:\\Blackjack\\Blackjack\\Blackjack.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Blackjack\\Blackjack\\obj\\",
+      "outputPath": "E:\\Blackjack\\Blackjack\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
