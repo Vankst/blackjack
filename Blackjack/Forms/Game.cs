@@ -131,7 +131,7 @@ namespace Blackjack.Forms
         public void AddCardPlayer()
         {
             player_card = rnd.Next(2, 12); //Игрок
-            if (player_count > 11 && player_card == 12)
+            if (player_count >= 11 && player_card == 11)
                 player_count++;
             else
                 player_count += player_card;
@@ -214,13 +214,13 @@ namespace Blackjack.Forms
         public string[] dilerCard = new string[6];
         public void AddCardDiler(bool check)
         {
-            diler_card = rnd.Next(2, 11); //Дилер
-            dilerCard[diler_totalcard] = diler_card.ToString(); //массив значений карт дилера
-            diler_totalcard++;
-            if (diler_count > 11 && diler_card == 11)
-                diler_count++;
+            diler_card = rnd.Next(2, 12); //Дилер
+            if (diler_count >= 11 && diler_card == 11)
+                player_count++;
             else
                 diler_count += diler_card;
+            dilerCard[diler_totalcard] = diler_card.ToString(); //массив значений карт дилера
+            diler_totalcard++;
             if (check)
                 Check();
         }
